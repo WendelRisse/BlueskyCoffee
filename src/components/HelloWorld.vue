@@ -1,6 +1,6 @@
 <template>
-
-  <!DOCTYPE html>
+  .
+  <!-- <!DOCTYPE html>
   <html lang="pt-br">
 
   <head>
@@ -12,21 +12,21 @@
 
   <body>
     <h1>RIOS MAIS POLUÍDOS DO MUNDO!</h1>
-    <h2>Veja os impactos</h2>
-    <img src="../assets/Citarum.jpg" alt="motel" class="imagemgrande" width="800" height="400">
+    <h2>Veja os impactos</h2> -->
+  <!-- <img src="../assets/Citarum.jpg" alt="motel" class="imagemgrande" width="800" height="400">
 
     <div class="row">
       <img src="../assets/rioamarelo.jpg" alt="motel2" width="400" height="400">
 
       <img src="../assets/rioganges.jpg" alt="motel3" width="400" height="400">
-    </div>
-    <div class="video">
+    </div> -->
+  <!-- <div class="video">
       <iframe width="800" height="400" src="https://www.youtube.com/embed/nLKv5G1RrZI"
         title="OS 5 RIOS MAIS POLUÍDOS DO MUNDO" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
-    </div>
-    <div class="tabela">
+    </div> -->
+  <!-- <div class="tabela">
       <table>
         <thead>
           <tr>
@@ -54,11 +54,11 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </div> -->
 
-  </body>
+  <!-- </body>
 
-  </html>
+  </html> -->
 </template>
 
 <script>
@@ -73,11 +73,11 @@ export default {
   margin-top: 50px;
 }
 
-body {
+/* body {
   font-family: Arial, sans-serif;
-}
+} */
 
-.row {
+/* .row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,9 +94,9 @@ body {
 .imagempequena {
   flex: 100%;
   padding: 5%;
-}
+} */
 
-h1 {
+/* h1 {
   text-align: center;
   font-size: 40px;
   font-family: Arial, sans-serif;
@@ -110,10 +110,10 @@ h2 {
   color: #666;
   margin-bottom: 1%;
   text-align: center;
-}
+} */
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .row {
     flex-direction: column;
   }
@@ -134,16 +134,16 @@ h2 {
     font-size: 18px;
   }
 
-}
+} */
 
-.video {
+/* .video {
   padding-top: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-img {
+/* img {
   border: 1px solid #ccc;
   padding: 10px;
   background-color: #fff;
@@ -152,15 +152,15 @@ img {
 
 img:hover {
   transform: rotate(2deg);
-}
+} */
 
-iframe {
+/* iframe {
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+} */
 
-table {
+/* table {
   width: 100%;
   border-collapse: collapse;
 }
@@ -178,5 +178,5 @@ th {
 
 td img {
   max-width: 100px;
-}
+} */
 </style>

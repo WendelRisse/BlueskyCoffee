@@ -1,5 +1,6 @@
 <template>
   <img src="../assets/Citarum.jpg" alt="motel" class="imagemgrande" width="800" height="400">
+  
 
   <div class="row">
     <img src="../assets/rioamarelo.jpg" alt="motel2" width="400" height="400">

@@ -1,33 +1,69 @@
-<!-- src/views/Home.vue -->
-
 <template>
-  <div>
-    <OutrosComponentes/>
-    <router-link to="/outros-componentes">Saiba Mais</router-link>
-    <br>
-    <ImagensDiversas/>
-    <router-link to="/imagens-diversas">Saiba Mais</router-link>
-    <br>
-    <VideoUnico/>
-    <router-link to="/video-unico">Saiba Mais</router-link>
-    <br>
-    <TabelaDiversos/>
-    <router-link to="/tabela-diversos">Saiba Mais</router-link>
+  <div class="container">
+    <div class="card" v-for="(component, index) in components" :key="index">
+      <component :is="component.component" />
+      <router-link :to="component.path" class="link">
+        Saiba Mais
+      </router-link>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'PaginaPrincipal',
-  components: {
-    OutrosComponentes: () => import('@/components/outrosComponentes.vue'),
-    ImagensDiversas: () => import('@/components/imagensDiversas.vue'),
-    VideoUnico: () => import('@/components/videoUnico.vue'),
-    TabelaDiversos: () => import('@/components/tabelaDiversos.vue')
+  data() {
+    return {
+      components: [
+        {
+          component: () => import('@/components/outrosComponentes.vue'),
+          path: '/outros-componentes'
+        },
+        {
+          component: () => import('@/components/imagensDiversas.vue'),
+          path: '/imagens-diversas'
+        },
+        {
+          component: () => import('@/components/videoUnico.vue'),
+          path: '/video-unico'
+        },
+        {
+          component: () => import('@/components/tabelaDiversos.vue'),
+          path: '/tabela-diversos'
+        }
+      ]
+    };
   }
 }
 </script>
 
-<style>
-/* Estilos específicos para Home.vue */
+<style scoped>
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 80%; /* Ajuste conforme necessário */
+  max-width: 600px; /* Ajuste conforme necessário */
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <img src="../assets/Citarum.jpg" alt="motel" class="imagemgrande" width="800" height="400">
+  <img src="../assets/batedeira.jpg" alt="batedeira" class="imagemgrande" width="800" height="400">
   
 
   <div class="row">
-    <img src="../assets/rioamarelo.jpg" alt="motel2" width="400" height="400">
+    <img src="../assets/cafe.jpg" alt="cafe" width="400" height="400">
 
-    <img src="../assets/rioganges.jpg" alt="motel3" width="400" height="400">
+    <img src="../assets/doceAzul.jpg" alt="doces" width="400" height="400">
   </div>
 </template>
 

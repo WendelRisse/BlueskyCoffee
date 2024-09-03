@@ -9,8 +9,8 @@
     </head>
 
     <body>
-        <h1>RIOS MAIS POLUÍDOS DO MUNDO!</h1>
-        <h2>Veja os impactos</h2>
+        <h1>BLUESKY COFFEE!</h1>
+        <h2>Veja fotos</h2>
     </body>
 
     </html>

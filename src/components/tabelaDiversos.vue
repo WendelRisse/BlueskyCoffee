@@ -15,17 +15,17 @@
                     <tr>
                         <td>1</td>
                         <td>Kit Limpeza</td>
-                        <td><img src="../assets/kitlimpeza.jpg" alt="Imagem do Kit de Limpeza"></td>
+                        <td><img src="../assets/images/kitlimpeza.jpg" alt="Imagem do Kit de Limpeza"></td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>Produtos de Limpeza</td>
-                        <td><img src="../assets/produtosdelimpeza.jpg" alt="Imagem dos Produtos de Limpeza"></td>
+                        <td><img src="../assets/images/produtosdelimpeza.jpg" alt="Imagem dos Produtos de Limpeza"></td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>Produtos Químicos</td>
-                        <td><img src="../assets/produtosquimicos.jpg" alt="Imagem do Produtos Químicos
+                        <td><img src="../assets/images/produtosquimicos.jpg" alt="Imagem do Produtos Químicos
                         "></td>
                     </tr>
                 </tbody>

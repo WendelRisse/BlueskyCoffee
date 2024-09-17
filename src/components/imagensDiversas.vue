@@ -1,11 +1,13 @@
 <template>
-  <img src="../assets/batedeira.jpg" alt="batedeira" class="imagemgrande" width="800" height="400">
-  
-
-  <div class="row">
-    <img src="../assets/cafe.jpg" alt="cafe" width="400" height="400">
-
-    <img src="../assets/doceAzul.jpg" alt="doces" width="400" height="400">
+  <div>
+    <!-- Imagem Grande -->
+    <img :src="require('@/assets/images/batedeira.jpg')" alt="batedeira" class="imagemgrande" width="800" height="400">
+    
+    <div class="row">
+      <!-- Outras Imagens -->
+      <img :src="require('@/assets/images/cafe.jpg')" alt="cafe" width="400" height="400">
+      <img :src="require('@/assets/images/doceAzul.jpg')" alt="doces" width="400" height="400">
+    </div>  
   </div>
 </template>
 
